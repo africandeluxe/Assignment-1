@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;600;700&family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5c5ff87312.js" crossorigin="anonymous"></script>
+    <title>Africandeluxe Management</title>
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logga.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">WHO ARE WE</a></li>
+                <li><a href="services.html">WHAT WE DO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<!------ CONTACT ----------->
+
+<h1>CONTACT US</h1>
+
+</section>
+
+<!---- Who are we content ----->
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>A Management That Focus On Women In Sport.</h1>
+            <p>We understand that no two athletes or brands are alike so we ensure everything we offer our clients is bespoke and premium. We don't over-complicate. 
+                <br>Our approach to business is based on simple core values; integrity, honesty, loyalty, respect, responsibility and commitment.
+                <br><br>Having worked at the sharp end of the sport, communications and corporate sectors for more than 30 years, we know for ourselves the importance of having the right team behind you.
+                <br><br> Whether it’s identifying and mentoring emerging talent at grassroots; guiding and advising those who have already turned professional, or developing a platform of innovative and creative sports marketing and business opportunities for our corporate partners, our vision is to bring out the best in everyone.</p>
+            </div>
+        <div class="about-col">
+            <img src="images/about.jpeg">
+        </div>
+
+    </div>
+
+</section>
+
+<!------ Locations -------->
+<section class="locations">
+    <h1> OUR HEADQUATERS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<div class="row">
+    <div class="location-col">
+        <img src="images/stockholm.webp">
+        <div class="layer">
+            <h3>STOCKHOLM</h3>
+        </div>
+    </div>
+
+    <div class="location-col">
+        <img src="images/newyork.jpeg">
+        <div class="layer">
+            <h3>NEW YORK</h3>
+        </div>
+    </div>
+
+    <div class="location-col">
+        <img src="images/dubai.jpeg">
+        <div class="layer">
+            <h3>DUBAI</h3>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Stengårdsvägen 14</h5>
+                    <p>112 37 Stockholm, Sweden</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+46 8 - 68 78 888</h5>
+                    <p>Monday - Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@africandeluxe.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn pink-btn">Send</button>
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<!----footer------>
+
+<!----footer------>
+
+<footer>
+    <div class="footer-content">
+        <h3>AFRICANDELUXE MANAGEMENT</h3>
+        <p>A Management That Focus On Women In Sport.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2023 Africandeluxe Management. Designed by <span>Miski M. Ahmed</span></p>
+    </div>
+</footer>
+
+<!-------- JavaScript for Toggle Menu---------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
